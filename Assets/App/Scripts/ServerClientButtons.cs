@@ -17,6 +17,8 @@ public class ServerClientButtons : NetworkBehaviour
     public GameObject digitalTwinActivation; 
     public GameObject eventSystem; 
     public GameObject sessionCamera; 
+    public GameObject room; 
+
     
     public bool isServer = false; 
     public bool digitalTwinEnabledInServer = false; 
@@ -77,8 +79,16 @@ public void PingClientRpc(String pingCount)
     // Sending to the specific client that requested the pong will be discussed in the next section.
     if(!digitalTwinEnabledInServer){
         sessionCamera.SetActive(true);
-    
+        
     Debug.Log("Recieved in Client!");
     }
+    // else{
+    //     Instantiate(camera, camera.transform.position, Quaternion.identity ); 
+
+    //     Debug.Log("addddd camera");
+    // }
 }
+    void update(){
+        Instantiate(room, room.transform.position, Quaternion.identity ); 
+    }
 }

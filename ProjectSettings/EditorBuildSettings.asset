@@ -5,9 +5,24 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/App/Scenes/MainScene.unity
     guid: 9bfeed540bd5f25428507bc9c6788fdc
+  - enabled: 0
+    path: Assets/ThirdParty/RoomPlanUnityKit/Samples/RPU/Scenes/RPU_1_SimpleStart.unity
+    guid: 91deff7ced70a421eb1f37fd7af09dcb
+  - enabled: 0
+    path: Assets/ThirdParty/RoomPlanUnityKit/Samples/RPU/Scenes/RPU_3_TransferringDataForScanningByDefault.unity
+    guid: 1d218dffeed5943688d9f13ac85a6864
+  - enabled: 0
+    path: Assets/ThirdParty/RoomPlanUnityKit/Samples/RPU/Scenes/RPU_4_CustomScanningInstructions.unity
+    guid: 94bc42fe11d6f46509584e57bb9d5519
+  - enabled: 0
+    path: Assets/ThirdParty/RoomPlanUnityKit/Samples/RPU/Scenes/RPU_6_Visualization3DModels.unity
+    guid: c289f93fb403440688b986593679ceab
+  - enabled: 1
+    path: Assets/ThirdParty/RoomPlanUnityKit/Samples/RPU (XR)/Scenes/RPU_XR_1_ARFoundation.unity
+    guid: c81c94e063e87454d8c1230207c5210f
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: ea7005cb2fc7a459e8871db698e97286, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 982c9ea3df5ac4441b2240fef4667f91, type: 2}
