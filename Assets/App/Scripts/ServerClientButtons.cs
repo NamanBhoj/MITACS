@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Unity.Netcode; 
 using System; 
-
+// using Globals; 
 
 
 
@@ -31,11 +31,13 @@ public class ServerClientButtons : NetworkBehaviour
         
     }
 
+
     void TaskOnClick()
     {
         if(this.tag == "ServerButton"){
             Debug.Log("server is up!");
             isServer = true; 
+            Globals.isServer = true; 
             // NetworkManager.Singleton.StartServer();  
            networkManager.GetComponent<LobbyManager>().CreateLobby();  
         }
@@ -59,7 +61,9 @@ public class ServerClientButtons : NetworkBehaviour
         //Output this to console when Button1 or Button3 is clicked
        
     }
-
+ public bool getIsServer(){
+    return isServer; 
+ }
     [ServerRpc(RequireOwnership=false)]
 public void PingServerRpc()
 {
@@ -89,6 +93,6 @@ public void PingClientRpc(String pingCount)
     // }
 }
     void update(){
-        Instantiate(room, room.transform.position, Quaternion.identity ); 
+        // Instantiate(room, room.transform.position, Quaternion.identity ); 
     }
 }

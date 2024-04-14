@@ -53,7 +53,7 @@ MonoBehaviour:
   type: 0
   category: 0
   size: {x: 0, y: 0, z: 0}
-  autoSetTRS: 0
+  autoSetTRS: 1
 --- !u!33 &1189911649887734709
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bad3d8676a5848d68dfac67d8277561, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoSetTRS: 0
+  autoSetTRS: 1
   slerpSmoothValue: 2
   animatedPosition: 0
   animatedRotation: 0

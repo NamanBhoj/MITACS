@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/App/Scenes/MainScene.unity
     guid: 9bfeed540bd5f25428507bc9c6788fdc
   - enabled: 0
@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ThirdParty/RoomPlanUnityKit/Samples/RPU/Scenes/RPU_6_Visualization3DModels.unity
     guid: c289f93fb403440688b986593679ceab
-  - enabled: 1
+  - enabled: 0
     path: Assets/ThirdParty/RoomPlanUnityKit/Samples/RPU (XR)/Scenes/RPU_XR_1_ARFoundation.unity
     guid: c81c94e063e87454d8c1230207c5210f
   m_configObjects:

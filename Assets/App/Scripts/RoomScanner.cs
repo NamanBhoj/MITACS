@@ -45,9 +45,10 @@ public class RoomScanner : MonoBehaviour
 #if UNITY_EDITOR
         if (RoomPlanUnityKit.CurrentRoomPlanUnityKitSettings.editorAR)
         {
-            var editorArScan = Resources.Load<TextAsset>("EditorAR/scan");
-            _capturedRoomSnapshot.EditorRoomSnapshot(editorArScan.text);
-            return;
+            Debug.Log("client boooo");
+            // var editorArScan = Resources.Load<TextAsset>("EditorAR/scan");
+            // _capturedRoomSnapshot.EditorRoomSnapshot(editorArScan.text);
+            // return;
         }
 #endif
 

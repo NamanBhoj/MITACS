@@ -121,8 +121,7 @@ MonoBehaviour:
   animatedPosition: 0
   animatedRotation: 0
   animatedScale: 1
-  indoorModelsSettings: {fileID: 11400000, guid: 284b81db242904926a25900aa36327db,
-    type: 2}
+  indoorModelsSettings: {fileID: 11400000, guid: 284b81db242904926a25900aa36327db, type: 2}
   meshRenderer: {fileID: 1189911649887734714}
 --- !u!64 &8681599229933997981
 MeshCollider:
