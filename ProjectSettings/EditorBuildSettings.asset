@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ThirdParty/RoomPlanUnityKit/Samples/RPU (XR)/Scenes/RPU_XR_1_ARFoundation.unity
     guid: c81c94e063e87454d8c1230207c5210f
+  - enabled: 0
+    path: Assets/App/Scenes/test.unity
+    guid: c84d8a3ec73d54ec9bae2c6b12ff3a42
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: ea7005cb2fc7a459e8871db698e97286, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 982c9ea3df5ac4441b2240fef4667f91, type: 2}
